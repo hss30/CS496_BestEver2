@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cookie Clickers</string>
+    <string name ="clicked">+1</string>
+</resources>
