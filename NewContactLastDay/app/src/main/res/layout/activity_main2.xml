@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:text="Button"
+        tools:text="ADD CONTACT" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtTelephone"
+        android:layout_marginTop="226dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Please Enter your Email"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtTelephone"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignStart="@+id/txtname"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Please Enter Your Phone number"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="101dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Please Enter Your Name"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtname"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+        android:text="Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtEmail"
+        android:layout_alignStart="@+id/textView2"
+        android:text="Email"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="173dp"
+        android:text="Number"
+        android:textSize="18sp" />
+</RelativeLayout>
